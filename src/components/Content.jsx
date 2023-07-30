@@ -8,9 +8,9 @@ const Content = () => {
             <div className='md:w-3/6 w-full'>
                 <div>
                     <h1 className='text-white text-5xl font-bold'>Buy or Sell <br /> Digital Assets, <br />
-                        <span className='text-gradient'>NFTs</span> Collections
+                        <span className='text-gradient'>NFTs Collections</span>
                     </h1>
-                    <p className='text-black-700 font-bold text-sm mt-3'>Mint and collect the coolest NFTs!</p>
+                    <p className='text-gradient font-extrabold text-md mt-3'>Mint and collect the coolest NFTs!</p>
                 </div>
                 <div className='flex mt-5'>
                     <button className="shadow-md bg-blue-500 text-white shadow-slate-800 mt-3 p-3 font-bold hover:bg-white hover:text-blue-500 rounded-full">
@@ -42,7 +42,7 @@ const Content = () => {
 
             </div>
 
-            <div className='rounded-md shadow-xl shadow-blue-500 md-w-2/5] mt-10 md:mt-1 overflow-hidden'>
+            <div className='rounded-md shadow-xl shadow-blue-500 md-w-2/5] mt-10 md:mt-1 overflow-hidden lg:mb-20 lg:mt-15'>
             <img  className="h-70 w-full object-cover rounded-md" style={{width:600}} src ={contentimg} alt="contentimg"/>
             <div className='flex justify-start items-center p-3'>
                 <Identicon 

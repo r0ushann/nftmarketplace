@@ -3,8 +3,8 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <div className="w-4/5 flex justify-between md:justify-center py-5 mx-auto font-extrabold text-xl">
-            <div className="md:flex-[0.5] text-gradient flex-initial items-center justify-center font-bold text-2xl">
+        <div className="w-4/5 flex justify-between md:justify-center py-5 mx-auto font-extrabold text-2xl">
+            <div className="md:flex-[0.5] text-gradient flex-initial items-center justify-center text-2xl">
                 NFTMarketplace
             </div>
 
@@ -16,7 +16,8 @@ const Header = () => {
             </ul>
 
             <button className="shadow-md bg-blue-500 text-white shadow-slate-800 p-3 ml-4 md:text-xs hover:bg-white hover:text-blue-500 rounded-full">
-            Connect Wallet</button>
+            Connect Wallet
+            </button>
         </div>
     )
 }
